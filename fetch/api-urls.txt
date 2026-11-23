@@ -1,0 +1,2 @@
+https://astro-funcitons.azurewebsites.net/api/Subscribe
+https://astrophotos.blob.core.windows.net/media
