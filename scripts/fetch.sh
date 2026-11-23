@@ -5,9 +5,9 @@ base=https://astrophotos.blob.core.windows.net
 mkdir -p media resources
 python3 -c "import json;[print(e['file']) for e in json.load(open('data/media.json'))]" | while IFS= read -r f; do
   enc=$(python3 -c "import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))" "$f")
-  curl -sSf --retry 3 -o "media/$f" "$base/media/$enc"
+  curl -sSf --retry 3 -o "media/$f" "$base/media/$enc" || echo "FAILED media/$f"
 done
 for r in telescope_favicon_32x32.png stars-bg.png seestar.png; do
-  curl -sSf --retry 3 -o "resources/$r" "$base/resources/$r"
+  curl -sSf --retry 3 -o "resources/$r" "$base/resources/$r" || echo "FAILED resources/$r"
 done
 ls -la media resources
