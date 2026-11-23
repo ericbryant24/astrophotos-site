@@ -105,7 +105,7 @@ header {
     height: 70vh;
     min-height: 500px;
     /* Replace this URL with the full path to your hero image */
-    background-image: url('https://astrophotos.blob.core.windows.net/media/M42.jpeg');
+    background-image: url('../media/M42.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -227,7 +227,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://astrophotos.blob.core.windows.net/resources/stars-bg.png');
+    background-image: url('../resources/stars-bg.png');
     background-size: cover;
     opacity: 0.2;
     z-index: 0;
@@ -338,25 +338,25 @@ header {
 }
 
 .featured-item:nth-child(1) {
-    background-image: url('https://astrophotos.blob.core.windows.net/media/M81.JPG');
+    background-image: url('../media/M81.JPG');
     grid-column: span 2;
     grid-row: span 1;
 }
 
 .featured-item:nth-child(2) {
-    background-image: url('https://astrophotos.blob.core.windows.net/media/M51.JPG');
+    background-image: url('../media/M51.JPG');
 }
 
 .featured-item:nth-child(3) {
-    background-image: url('https://astrophotos.blob.core.windows.net/media/IC443.JPG');
+    background-image: url('../media/IC443.JPG');
 }
 
 .featured-item:nth-child(4) {
-    background-image: url('https://astrophotos.blob.core.windows.net/media/M37.JPG');
+    background-image: url('../media/M37.JPG');
 }
 
 .featured-item:nth-child(5) {
-    background-image: url('https://astrophotos.blob.core.windows.net/media/Lunar%20Eclipse_thumb.png');
+    background-image: url('../media/Lunar%20Eclipse_thumb.png');
 }
 
 .featured-item:hover {

@@ -143,20 +143,6 @@ function renderGallery(mediaItems) {
             createPhotoIcon() : 
             createVideoIcon();
         
-        // Get heart status for this item
-        const heartCount = heartsState?.counts[item.name] || 0;
-        const isHearted = heartsState?.userHearts.has(item.name) || false;
-        
-        // Create heart button HTML
-        const heartButtonHTML = `
-            <div class="heart-button ${isHearted ? 'hearted' : ''}" data-image="${item.name}">
-                <div class="heart-icon">
-                    ${isHearted ? createHeartFilledIcon() : createHeartOutlineIcon()}
-                </div>
-                <span class="heart-count">${heartCount}</span>
-            </div>
-        `;
-        
         itemElement.innerHTML = `
             <div class="media-type">${mediaTypeIcon}</div>
             ${item.type === 'video' ? 
@@ -164,17 +150,13 @@ function renderGallery(mediaItems) {
                 `<img src="${item.url}" alt="${item.name}" loading="lazy">`
             }
             <div class="caption">${item.name}</div>
-            ${heartButtonHTML}
         `;
         
         gallery.appendChild(itemElement);
         
-        // Add click handler - use event delegation for heart button (handled in hearts.js)
-        itemElement.addEventListener('click', function(e) {
-            // Don't open lightbox if heart button was clicked
-            if (!e.target.closest('.heart-button')) {
-                openLightbox(item);
-            }
+        // Open the lightbox on click
+        itemElement.addEventListener('click', function() {
+            openLightbox(item);
         });
     });
 }

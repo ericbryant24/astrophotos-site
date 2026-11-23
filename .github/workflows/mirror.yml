@@ -16,6 +16,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A fetch site 2>/dev/null || git add -A fetch
-          git commit -m "Fetch content from Azure" || echo "nothing to commit"
+          git add -A media resources
+          git commit -m "Copy photos from Azure" || echo "nothing to commit"
           git push

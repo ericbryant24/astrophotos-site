@@ -134,20 +134,6 @@ function openLightbox(item, direction = 0) {
     // Allow scrolling to work by preventing mobile browsers from capturing events
     document.body.style.overflowY = 'hidden';
     lightbox.style.overflowY = 'scroll';
-    
-    // Add heart button to lightbox
-    if (typeof addHeartButtonToLightbox === 'function') {
-        // Remove existing button if it exists
-        const existingButton = document.getElementById('lightbox-heart-button');
-        if (existingButton) {
-            existingButton.remove();
-        }
-        
-        // Add the heart button
-        setTimeout(() => {
-            addHeartButtonToLightbox(item);
-        }, 100);
-    }
 }
 
 /**

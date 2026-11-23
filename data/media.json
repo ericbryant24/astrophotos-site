@@ -1,0 +1,251 @@
+[
+ {
+  "file": "21cfe0f53ffad6a95c076520fc3cb88f-NGC6960.jpg",
+  "description": "NGC6960 is a portion of the Veil Nebula, a large supernova remnant created by the explosive death of a massive star approximately 10,000 years ago. Located in the constellation Cygnus, this delicate filamentary nebula is part of the larger Cygnus Loop and is a result of a stellar explosion that occurred roughly 1,470 years ago. The complex was first discovered photographically in the late 19th century.",
+  "distance_ly": "1470",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Veil_Nebula",
+  "erics_notes": "",
+  "name": "NGC6960 (Witch's Broom Nebula)",
+  "tags": "NGC6960, Cygnus, Nebula",
+  "date": "2025-05-26",
+  "is_hidden": "false"
+ },
+ {
+  "file": "61cb6550fd80f8176d231e584359f92b-NGC4565.jpg",
+  "name": "NGC4565 (Needle Galaxy)",
+  "description": "NGC 4565 is an edge-on spiral galaxy located in the constellation Coma Berenices. It is considered one of the most famous and best-known edge-on galaxies in the night sky. First discovered by William Herschel in 1785, this galaxy is notable for its impressive, razor-thin disk and prominent central bulge, which gives it a distinctive needle-like appearance when viewed from Earth.",
+  "distance_ly": "30000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/NGC_4565",
+  "date": "2025-04-09",
+  "is_hidden": "false",
+  "erics_notes": "This is around 4 hours of imaging.",
+  "tags": "NGC4565, Coma Berenices, Galaxy"
+ },
+ {
+  "file": "66ccaea589bf1a0080b4c81e2e08f3ab-Markarian's Chain.jpg",
+  "description": "Markarian's Chain is a stretch of galaxies that forms part of the Virgo Cluster, notable for its unique linear arrangement. The chain was named after Armenian astronomer Benjamin Markarian, who first studied its distinctive configuration. It contains several prominent galaxies that appear to be gravitationally linked and moving together through space.",
+  "distance_ly": "54000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Markarian%27s_Chain",
+  "erics_notes": "Not a ton of detail on the individual galaxies, but there are a lot of them!",
+  "name": "Markarian's Chain (Galaxy Chain)",
+  "tags": "VCC (Virgo Cluster Catalog), Virgo, Galaxy Cluster",
+  "date": "2025-04-29",
+  "is_hidden": "true"
+ },
+ {
+  "file": "74daf062cfb78fdb43b2b72f3dd7253a-NGC6992.jpg",
+  "name": "NGC6992 (Eastern Veil Nebula)",
+  "description": "NGC6992 is part of the Veil Nebula complex, a large supernova remnant located in the constellation Cygnus. The nebula is a result of a massive star's explosive death approximately 10,000 years ago, creating a stunning filamentary structure of glowing gas and dust. The Eastern Veil is one of the most prominent sections of the larger Veil Nebula, characterized by intricate, delicate web-like patterns of ionized hydrogen and other elements.",
+  "distance_ly": "1470",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Veil_Nebula",
+  "date": "2025-05-24",
+  "is_hidden": "false",
+  "erics_notes": "Love it",
+  "tags": "NGC6992, Cygnus, Nebula, Eric's Favorites"
+ },
+ {
+  "file": "IC443.JPG",
+  "description": "IC443 is a galactic supernova remnant located in the constellation Gemini. It was formed approximately 30,000-35,000 years ago when a massive star exploded as a supernova. The nebula is characterized by its unique, jellyfish-like shape and complex structure, which includes intricate filaments and shells of expanding gas and dust created by the stellar explosion.",
+  "distance_ly": "5000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/IC_443",
+  "erics_notes": "This was 710 10 second exposure images. I took the photos over two nights, the bulk of which were on the second night before moonrise. The lack of moon made a huge difference. I think there is still a lot more I could get out of this picture with more data.",
+  "name": "IC443 (Jellyfish Nebula)",
+  "tags": "Nebula,IC 443,Eric's Favorite,Gemini",
+  "date": "2025-03-18"
+ },
+ {
+  "file": "Leo Triplet.JPG",
+  "description": "The Leo Triplet is a group of three interacting spiral galaxies located in the constellation Leo. Discovered in the late 18th century by Charles Messier, who cataloged M65 and M66, and later including NGC 3628, this compact galaxy group is notable for its close proximity and gravitational interactions. The galaxies are approximately 35 million light-years away and show visible signs of distortion due to their mutual gravitational influence.",
+  "distance_ly": "35000000",
+  "wikipedia_url": "y",
+  "telescopius_url": "https://telescopius.com/deep-sky-objects/galaxy-group/leo-triplet",
+  "name": "NGC 3628, M65, M66 (Leo Triplet)",
+  "erics_notes": "No post processing on this, just the way the Seestar stacked it. Really happy with the results.",
+  "date": "2025-03-13",
+  "tags": "Messier Object,NGC 3628,M65,M66,Leo,Galaxy"
+ },
+ {
+  "file": "Lunar Eclipse.mp4",
+  "description": "An astronomical event where the Earth comes between the Sun and the Moon, casting Earth's shadow over the Moon. Occurs at least twice a year.",
+  "name": "Lunar Eclipse (3/14/2025)",
+  "erics_notes": "Love the way this turned out. This is a timelapse with one frame every 2s. The video was then sped up and stabalized.",
+  "date": "2025-03-14",
+  "tags": "Moon,Eric's Favorite"
+ },
+ {
+  "file": "Lunar Eclipse_thumb.png"
+ },
+ {
+  "file": "M1.JPG",
+  "description": "The Crab Nebula is a supernova remnant located in the constellation Taurus. It was first observed by John Bevis in 1731 and later independently discovered by Charles Messier in 1758, who included it as the first object in his famous catalog. The nebula is the result of a supernova explosion recorded by Chinese and Arab astronomers in 1054 AD. At its center lies a rapidly rotating neutron star, or pulsar, which was the first pulsar to be discovered.",
+  "distance_ly": "6500",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crab_Nebula",
+  "telescopius_url": "https://telescopius.com/deep-sky-objects/m1-crab-nebula",
+  "name": "M1 (Crab Nebula)",
+  "erics_notes": "I was surprised how well this turned out. Would love to come back to this target. I do think I oversaturated it a bit.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M1,Taurus,Nebula"
+ },
+ {
+  "file": "M101.jpg",
+  "description": "M101 is a face-on spiral galaxy located in the constellation Ursa Major. It was first discovered by Pierre Mchain on March 27, 1781, and later cataloged by Charles Messier. The galaxy is notable for its large size and numerous bright regions of star formation. M101 is approximately 170,000 light-years in diameter and is considered a grand design spiral galaxy with prominent, well-defined spiral arms.",
+  "distance_ly": "21000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
+  "erics_notes": "This is about 3.5 hours of data. Processed in Siril, GraXpert, and GIMP.",
+  "name": "M101 (Pinwheel Galaxy)",
+  "tags": "Galaxy,Messier Object,Eric's Favorite,M101",
+  "date": "2025-03-21"
+ },
+ {
+  "file": "M106.jpg",
+  "description": "M106 is an intermediate spiral galaxy located in the constellation Canes Venatici. It was discovered by Pierre Mchain in 1781 and later added to the Messier Catalog. The galaxy is notable for its active galactic nucleus and prominent radio and X-ray emissions, which suggest the presence of a supermassive black hole at its center. M106 is considered an unusual galaxy due to its unique structure and high levels of star formation.",
+  "distance_ly": "23700000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_106",
+  "erics_notes": "This is about 3.5 hours of data, but with a full moon. I am not blown away, but still, it's a galaxy! From my roof!",
+  "name": "M106 (Caldwell 92)",
+  "tags": "Galaxy,Messier Object,M106,Canes Venatici",
+  "date": "2025-03-20"
+ },
+ {
+  "file": "M109.JPG",
+  "description": "M109 is a barred spiral galaxy located in the constellation Ursa Major. It was discovered by Pierre Mchain in 1781 and later added to the Messier Catalog. The galaxy is part of the M109 Group, a small galaxy group that includes multiple spiral and irregular galaxies. It is characterized by its distinct spiral arms and bright central region, which indicate active star formation and a significant stellar population.",
+  "distance_ly": "55000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_109",
+  "telescopius_url": "https://telescopius.com/object/m109",
+  "name": "M109 (Ursa Major Galaxy)",
+  "erics_notes": "This was a hazy night with a pretty bright moon. A little dissapointed with the lack of detail, but still, this galaxy is over 50 million light years away!",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M109,Ursa Major,Galaxy"
+ },
+ {
+  "file": "M3.jpg",
+  "description": "M3 is a globular cluster located in the constellation Canes Venatici. It was discovered by Charles Messier on May 3, 1764, and is considered one of the largest and brightest globular clusters in the night sky. The cluster contains approximately 500,000 stars and is notable for having a significant number of variable stars, with over 270 variable stars discovered within its boundaries.",
+  "distance_ly": "33900",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_3",
+  "erics_notes": "This is about 18 minutes of data, captured really early in the morning.",
+  "name": "M3 (NGC 5272)",
+  "tags": "Star Cluster,Messier Object,M3",
+  "date": "2025-03-20"
+ },
+ {
+  "file": "M37.JPG",
+  "description": "M37 is an open star cluster located in the constellation Auriga. Discovered by Giovanni Battista Hodierna before 1654, it is one of the richest and most prominent open clusters in the northern sky. The cluster contains approximately 500 stars and is estimated to be around 300 million years old. It appears as a bright, compact group of stars when viewed through a telescope and is a popular target for amateur astronomers.",
+  "distance_ly": "4400",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/M37",
+  "telescopius_url": "https://telescopius.com/object/m37",
+  "name": "M37 (Open Cluster in Auriga)",
+  "erics_notes": "Just a quick shot to test out putting the Seestar in equatorial mode. I ended up liking the image a lot more than I expected to.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M37,Auriga,Star Cluster"
+ },
+ {
+  "file": "M42.jpeg",
+  "description": "The Orion Nebula is a massive star-forming region located in the constellation Orion, visible to the naked eye as a fuzzy patch in Orion's sword. First discovered by Nicolas Claude Fabri de Peiresc in 1610, this diffuse nebula is one of the brightest and most studied stellar nurseries in the night sky. It contains hundreds of young stars and is part of the larger Orion Molecular Cloud Complex, representing an active region of ongoing stellar formation.",
+  "distance_ly": "1344",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orion_Nebula",
+  "telescopius_url": "https://telescopius.com/nebulae/m42-orion-nebula",
+  "name": "M42 (Orion Nebula)",
+  "erics_notes": "This is so cool to me. This is about 2 hours of data. I love that you can see the nebulosity on the left side of the image. Someone better at editing than me probably could have kept from blowing out the trapezium, but I'm still pretty happy with it.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,Nebula,M42,Orion,Eric's Favorite"
+ },
+ {
+  "file": "M51.JPG",
+  "name": "M51 (Whirlpool Galaxy)",
+  "description": "This stunning spiral galaxy, discovered by Charles Messier in 1773, lies 23 million light-years away in the constellation Canes Venatici. Its distinctive spiral arms earned it the nickname \"Whirlpool Galaxy.\" M51 features a main galaxy (NGC 5194) actively interacting with a smaller companion galaxy (NGC 5195), creating a cosmic dance that triggers new star formation. First identified as a spiral structure in 1845 by Lord Rosse, M51 continues to captivate astronomers studying galactic evolution and remains one of the most photographed galaxies in our night sky.",
+  "distance_ly": "23000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+  "teelscopius_url": "https://telescopius.com/deep-sky/objects/m51-whirlpool-galaxy",
+  "erics_notes": "This is from my first and second night out with the Seestar.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M51,Galaxy,Canes Venatici,Eric's Favorite"
+ },
+ {
+  "file": "M81.JPG",
+  "description": "M81 is a grand design spiral galaxy located in the constellation Ursa Major. It was first discovered by Johann Elert Bode in 1774 and is one of the brightest galaxies visible from Earth. Located approximately 12 million light-years away, M81 is a part of the M81 Group, a cluster of galaxies that also includes M82. The galaxy is notable for its well-defined spiral arms and its proximity to Earth, making it a popular target for amateur and professional astronomers.",
+  "distance_ly": "12000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_81",
+  "telescopius_url": "https://telescopius.com/deep-sky/galaxy/m81",
+  "name": "M81 (Bode's Galaxy)",
+  "erics_notes": "I was kind of reluctant to try this one. I felt like after M51 it was going to be kind of boring. So far it is my favorite picture I have taken. This is about 3.5 hours of data, much of it taken through the trees.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M81,Galaxy,Ursa Major,Eric's Favorite"
+ },
+ {
+  "file": "M81_v2.jpg",
+  "name": "M81 (Bode's Galaxy) - 4/25 Update",
+  "description": "M81 is a grand design spiral galaxy located in the constellation Ursa Major. It was first discovered by Johann Elert Bode in 1774 and is one of the brightest galaxies visible from Earth. Located approximately 12 million light-years away, M81 is part of the M81 Group, a cluster of galaxies that includes several other notable galaxies. The galaxy is notable for its striking spiral structure and is a popular target for amateur astronomers and professional telescopes.",
+  "distance_ly": "12000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_81",
+  "date": "2025-04-05",
+  "is_hidden": "true",
+  "erics_notes": "I added another night of imaging here. All together this is a little over 7 hours of data.",
+  "tags": "M81,Messier Object,Galaxy,Eric's Favorite"
+ },
+ {
+  "file": "M97.jpeg",
+  "description": "M97, also known as the Owl Nebula, is a planetary nebula located in the constellation Ursa Major. It was discovered by Pierre Mchain on February 16, 1781. The nebula gets its nickname from its appearance, which resembles an owl's face when viewed through a telescope, with two dark regions that look like eyes. This planetary nebula is the result of a dying star shedding its outer layers, creating a complex and beautiful structure of ionized gas.",
+  "distance_ly": "2030",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Owl_Nebula",
+  "telescopius_url": "https://telescopius.com/nebula/m97-owl-nebula",
+  "name": "M97 (Owl Nebula)",
+  "erics_notes": "This is another shot I got on the first night out with the Seestar. This is only about an hour of data, so I was pretty surprised at how much color I did get. Would love to spend more time on it and see if I could get more definition.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M97,Ursa Major,Nebula"
+ },
+ {
+  "file": "M97_M108.JPG",
+  "description": "A pair of deep sky objects in Ursa Major: M97, a planetary nebula created by a dying star, and M108, a barred spiral galaxy seen nearly edge-on.",
+  "distance_ly": "2030",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Owl_Nebula",
+  "telescopius_url": "null",
+  "name": "M97 (Owl Nebula) and M108 (Surfboard Galaxy)",
+  "erics_notes": "I was frustrated with this. My first time trying out the mosaic mode on the Seestar and I must have put the galaxy too close to the edge and it got cut off. Frustrating because I think it is really cool shot. I'll have to try again.",
+  "date": "2025-03-17",
+  "tags": "Messier Object,M97,M108,Galaxy,Nebula,Ursa Major"
+ },
+ {
+  "file": "a89225a4ea449bb8d9135800fd527b70-NGC6888_2.jpg",
+  "description": "NGC 6888, also known as the Crescent Nebula, is a cosmic bubble of gas approximately 25 light-years across, located in the constellation Cygnus. It was formed by the fast stellar wind from the Wolf-Rayet star WR 136, which is creating a wind-blown bubble that is being illuminated by the star's radiation. This nebula is notable for its distinctive crescent-like shape and is a product of the intense stellar winds and mass loss from a massive, aging star.",
+  "distance_ly": "5000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/NGC_6888",
+  "erics_notes": "Wasn't sure how much to highlight the starts vs the nebula here. Feel like I went with the stars.",
+  "name": "NGC6888 (Crescent Nebula)",
+  "tags": "NGC 6888, Cygnus, Nebula",
+  "date": "2025-05-11",
+  "is_hidden": "false"
+ },
+ {
+  "file": "e25fbda8dfac75d3199682d63a06789a-M101-Update2.jpg",
+  "description": "M101 is a large, face-on spiral galaxy located in the constellation Ursa Major. It was first discovered by Pierre Mchain on March 27, 1781, and later cataloged by Charles Messier. The galaxy is approximately 170,000 light-years in diameter and is notable for its well-defined spiral arms and numerous bright star-forming regions.",
+  "distance_ly": "21000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
+  "erics_notes": "I am up to about 10 hours of images on M101. I felt like the last picture had a lot of noise, and I think this version is much better.",
+  "name": "M101 (Pinwheel Galaxy) (5/26/25 Update)",
+  "tags": "Messier Object, M101, Ursa Major, Galaxy, Eric's Favorite",
+  "date": "2025-05-27",
+  "is_hidden": "false"
+ },
+ {
+  "file": "ee6821aa665b616c3f0e349f80ef579b-M63.jpg",
+  "description": "M63, also known as the Sunflower Galaxy, is a spiral galaxy located in the constellation Canes Venatici. It was discovered by Pierre Mchain on June 14, 1779, and later added to the Messier Catalog. The galaxy is characterized by its distinct spiral arms and bright, yellow core, which give it a sunflower-like appearance when viewed through telescopes.",
+  "distance_ly": "37000000",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_63",
+  "erics_notes": "",
+  "name": "M63 (Sunflower Galaxy)",
+  "tags": "Messier Object, M63, Canes Venatici, Galaxy",
+  "date": "2025-04-29",
+  "is_hidden": "true"
+ },
+ {
+  "file": "f6a828ca4eca0462bcc9babecef049c6-M13.jpg",
+  "name": "M13 (Hercules Globular Cluster)",
+  "description": "M13 is a globular cluster located in the constellation Hercules, containing several hundred thousand stars. It was discovered by Edmond Halley in 1714 and later added to Charles Messier's catalog in 1764. The cluster is one of the most prominent and densely packed globular clusters visible from the Northern Hemisphere, and is known for its impressive size and brightness.",
+  "distance_ly": "25100",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Messier_13",
+  "date": "2025-04-08",
+  "is_hidden": "false",
+  "erics_notes": "Nothing too exciting. But I do like the variety of colors in the stars.",
+  "tags": "Messier Object, M13, Hercules, Star Cluster"
+ }
+]

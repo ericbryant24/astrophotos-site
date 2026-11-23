@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://astrophotos.blob.core.windows.net/resources/telescope_favicon_32x32.png">
+    <link rel="icon" type="image/png" href="resources/telescope_favicon_32x32.png">
     <title>Eric's Astrophotography - Gallery</title>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/lightbox.css">
-    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/featured-tags.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/hearts.css">
     <link rel="stylesheet" href="css/sticky-header.css">
 </head>
 <body>
@@ -26,16 +24,6 @@
                 <a href="gallery.html" class="nav-link active">Gallery</a>
             </div>
         </nav>
-
-        <div class="subscribe-container">
-            <button class="subscribe-button" onclick="openSubscribeModal()">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-                Subscribe
-            </button>
-        </div>
 
         <div class="sorting-controls">
             <span class="sort-label">Sort by:</span>
@@ -111,32 +99,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Subscribe Modal -->
-    <div class="modal" id="subscribe-modal">
-        <div class="modal-content">
-            <button class="close-modal" onclick="closeSubscribeModal()">×</button>
-            <h2 class="modal-title">Subscribe to Updates</h2>
-            <p>Get notified when new astrophotography images are added to the gallery.</p>
-            
-            <form class="subscribe-form" id="subscribe-form">
-                <div class="form-group">
-                    <label for="email" class="form-label">Email Address</label>
-                    <input type="email" id="email" name="email" class="form-input" required placeholder="yourname@example.com">
-                </div>
-                
-                <button type="submit" class="form-submit" id="submit-button">Subscribe</button>
-                
-                <div class="form-message success-message" id="success-message">
-                    You've been successfully subscribed!
-                </div>
-                
-                <div class="form-message error-message-form" id="error-message">
-                    There was an error processing your subscription. Please try again.
-                </div>
-            </form>
-        </div>
-    </div>
     
     <footer>
         <p>&copy; 2025 Eric Bryant. All rights reserved.</p>
@@ -145,7 +107,6 @@
     <!-- Load JavaScript files -->
     <script src="js/utils.js"></script>
     <script src="js/api.js"></script>
-    <script src="js/hearts.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/touch-controls.js"></script>
     <script src="js/lightbox.js"></script>
