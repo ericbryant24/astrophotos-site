@@ -1,0 +1,565 @@
+/* Home page specific styles */
+
+/* Header and Navigation */
+header {
+    position: fixed;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.logo a {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--nasa-light);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+/* Individual nav link */
+.nav-link {
+    color: var(--nasa-light);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+    background: var(--nasa-blue);
+    color: var(--nasa-light);
+}
+
+/* Subscribe button container - keep at top right */
+.subscribe-container {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    margin: 0;
+}
+
+/* Sorting controls adjustments */
+.sorting-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sort-label {
+    color: var(--nasa-gray);
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.sort-button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--nasa-light);
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 70vh;
+    min-height: 500px;
+    /* Replace this URL with the full path to your hero image */
+    background-image: url('https://astrophotos.blob.core.windows.net/media/M42.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(2, 8, 20, 0.7) 0%, rgba(2, 8, 20, 0.4) 100%);
+    z-index: 1;
+}
+
+/* For browsers that support it, add a subtle parallax effect */
+@media (min-width: 768px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 3.5rem;
+    margin-bottom: 16px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--nasa-light);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-tagline {
+    font-size: 1.4rem;
+    color: var(--nasa-light);
+    opacity: 0.9;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Intro Section */
+.intro-section {
+    background: linear-gradient(180deg, #03081a 0%, #051529 100%);
+    padding: 80px 0;
+}
+
+.intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--nasa-blue);
+    box-shadow: 0 4px 20px rgba(16, 91, 216, 0.3);
+}
+
+.profile-details h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--nasa-light);
+}
+
+.profile-details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--nasa-light);
+    opacity: 0.9;
+    margin-bottom: 16px;
+}
+
+/* Process Section */
+.process-section {
+    background: #020814;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.process-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://astrophotos.blob.core.windows.net/resources/stars-bg.png');
+    background-size: cover;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.process-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.process-section h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--nasa-light);
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.process-step {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.process-step:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(16, 91, 216, 0.15);
+}
+
+.step-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--nasa-blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: var(--nasa-light);
+}
+
+.step-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.process-step h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    color: var(--nasa-light);
+}
+
+.process-step p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--nasa-light);
+    opacity: 0.8;
+}
+
+/* Featured Images Section */
+.featured-section {
+    background: linear-gradient(180deg, #020814 0%, #03081a 100%);
+    padding: 80px 0;
+}
+
+.featured-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.featured-section h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--nasa-light);
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 240px);
+    gap: 20px;
+}
+
+.featured-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-position: center;
+    background-size: cover;
+}
+
+.featured-item:nth-child(1) {
+    background-image: url('https://astrophotos.blob.core.windows.net/media/M81.JPG');
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.featured-item:nth-child(2) {
+    background-image: url('https://astrophotos.blob.core.windows.net/media/M51.JPG');
+}
+
+.featured-item:nth-child(3) {
+    background-image: url('https://astrophotos.blob.core.windows.net/media/IC443.JPG');
+}
+
+.featured-item:nth-child(4) {
+    background-image: url('https://astrophotos.blob.core.windows.net/media/M37.JPG');
+}
+
+.featured-item:nth-child(5) {
+    background-image: url('https://astrophotos.blob.core.windows.net/media/Lunar%20Eclipse_thumb.png');
+}
+
+.featured-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.featured-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    color: var(--nasa-light);
+    transition: background 0.3s ease;
+}
+
+.featured-item:hover .featured-overlay {
+    background: linear-gradient(to top, rgba(16, 91, 216, 0.8) 0%, rgba(16, 91, 216, 0) 100%);
+}
+
+.featured-overlay h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+}
+
+.featured-overlay p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(to right, var(--nasa-blue), #2a6edb);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cta-section h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    color: var(--nasa-light);
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: var(--nasa-light);
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--nasa-dark);
+    color: var(--nasa-light);
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid var(--nasa-light);
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+    .main-nav {
+        padding-right: 140px; /* Make space for subscribe button */
+    }
+    
+    .logo a {
+        font-size: 1.5rem;
+    }
+    
+    .nav-link {
+        padding: 8px 10px;
+        font-size: 0.95rem;
+    }
+    
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .featured-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+    
+    .featured-item:nth-child(1) {
+        grid-column: span 1;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+    };
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .nav-links {
+        margin-right: 0;
+        justify-content: center;/::-ms-tooltip
+    }
+    
+    .subscribe-container {
+        position: static;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 0;
+    }
+    
+    .main-nav {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .subscribe-container {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+    
+    .logo a {
+        font-size: 1.4rem;
+    }
+    
+    .sort-button {
+        padding: 5px 10px;
+        font-size: 0.85rem;
+    }
+    
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .process-steps {
+        gap: 20px;
+    }
+    
+    .process-step {
+        padding: 20px;
+    }
+    
+    .cta-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero {
+        min-height: 400px;
+    }
+    
+    .process-section h2, 
+    .featured-section h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+}

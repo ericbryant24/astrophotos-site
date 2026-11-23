@@ -1,0 +1,27 @@
+/* Improved sticky header styles using CSS only */
+header {
+    width: 100%;
+    background-color: rgba(16, 24, 40, 0.95);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Media query to disable sticky header on mobile */
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        box-shadow: none;
+        backdrop-filter: none;
+    }
+}
+
+/* Replace the body.has-sticky-header class with a more reliable approach */
+body {
+    scroll-padding-top: 80px; /* Helps with anchor links when using sticky header */
+}

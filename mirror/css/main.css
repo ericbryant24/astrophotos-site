@@ -1,0 +1,215 @@
+:root {
+    --nasa-dark: #020814;
+    --nasa-blue: #105bd8;
+    --nasa-red: #fc3d21;
+    --nasa-light: #ffffff;
+    --nasa-gray: #7f7f7f;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    color: var(--nasa-light);
+    margin: 0;
+    padding: 0;
+    background: var(--nasa-dark);
+    background: linear-gradient(135deg, #020814 0%, #0a1128 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.02em;
+    color: var(--nasa-light);
+    text-transform: uppercase;
+}
+
+/* Subscribe button styles */
+.subscribe-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.subscribe-button {
+    background-color: var(--nasa-blue);
+    color: var(--nasa-light);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe-button:hover {
+    background-color: #2a6edb;
+    transform: translateY(-2px);
+}
+
+.subscribe-button svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Sorting controls */
+.sorting-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.sort-label {
+    color: var(--nasa-gray);
+    font-size: 0.9rem;
+}
+
+.sort-button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--nasa-light);
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sort-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sort-button.active {
+    background: var(--nasa-blue);
+    border-color: var(--nasa-blue);
+}
+
+/* Tag system */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-link {
+    background: rgba(16, 91, 216, 0.2);
+    color: var(--nasa-light);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tag-link:hover {
+    background: var(--nasa-blue);
+    color: white;
+    text-decoration: none;
+}
+
+.tag-filter-indicator {
+    background: rgba(16, 91, 216, 0.1);
+    border: 1px solid rgba(16, 91, 216, 0.3);
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 0 32px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-tag {
+    background: var(--nasa-blue);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.clear-filter-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: var(--nasa-light);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-size: 0.8rem;
+}
+
+.clear-filter-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Loading and error states */
+.loading {
+    padding: 40px;
+    text-align: center;
+    color: var(--nasa-gray);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.error-message {
+    margin: 24px;
+    padding: 16px 24px;
+    color: var(--nasa-red);
+    background: rgba(252, 61, 33, 0.1);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 32px;
+    color: var(--nasa-gray);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    .subscribe-container {
+        position: static;
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sorting-controls {
+        flex-wrap: wrap;
+    }
+    
+    .tag-filter-indicator {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 16px 16px;
+    }
+}
